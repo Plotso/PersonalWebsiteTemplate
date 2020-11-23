@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+    <script src="comments.js" defer></script>
+    <script src="gallery.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light ">      
+        <div class="container">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item current" id="nav-personal-page">
+              <a class="nav-link" href="#" onclick="showPersonalPage()"><strong>John Warner</strong></a>
+            </li>
+            <li class="nav-item" id="nav-gallery">
+              <a class="nav-link" href="#" onclick="showGalleryPage()">Gallery</a>
+            </li>
+            <li class="nav-item" id="nav-comments">
+              <a class="nav-link" href="#" onclick="showCommentsPage()">Comments</a>
+            </li>
+            <li class="nav-item" id="nav-about">
+              <a class="nav-link" href="#" onclick="showAboutPage()">About</a>
+            </li>
+          </ul>
+    </nav>
+    <div id="personal-page">
+      <div class="container general-information">
+        <h1>John Warner</h1>
+        <h4 id="position">Software Engineer</h4>    
+        <p>Young and ambitious software developer with high interest in developing complex new products for gaming industries.</p>    
+
+        <ul class="list-inline list-unstyled text-left">
+          <li class="list-inline-item">
+              <i class="fa fa-phone" aria-hidden="true"></i> 0881234567
+          </li>
+          <li class="list-inline-item">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> john.warner@gmail.com
+          </li>
+          <li class="list-inline-item">
+              <i class="fa fa-map-marker" aria-hidden="true"></i> London, UK
+          </li>
+        </ul>
+        <img class="rounded-circle float-right" src="images/profile_icon.png" width=150 height=150>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm section">
+            <h5>Experience</h5>
+            <ul>
+              <li>
+                <h6>Lead Software Engineer  - <span>DraftKings</span></h6>
+                <div class="education-details">
+                  <ul class="list-inline list-unstyled text-left">                    
+                    <li class="list-inline-item">                  
+                      <i class="fa fa-calendar" aria-hidden="true"></i> November 2017 - November 2020
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Boston, Massachusetts, USA
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  DK is one of the leading sports betting solutions providers in the world. As part of the company I was responsible for maintaining and developing distributed systems. Work included several responsibilities:
+                  <ul>
+                    <li>Develop complex product solutions using scalable distributed systems</li>
+                    <li>Improve system monitoring</li>
+                    <li>Make architectural redesign of core systems</li>
+                    <li>Setup new DataCenters</li>
+                  </ul>
+
+                </div>
+              </li>
+              <br>
+              <li>
+                <h6>Mid Software Developer  - <span>EToro</span></h6>
+                <div class="education-details">
+                  <ul class="list-inline list-unstyled text-left">                    
+                    <li class="list-inline-item">                  
+                      <i class="fa fa-calendar" aria-hidden="true"></i> December 2014 - September 2017
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Tel Aviv, Israel
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  Working in one of the leading online trading platforms worldwide. Work included several responsibilities:
+                  <ul>
+                    <li>Improve solutions quality</li>
+                    <li>Working directly on integration for new equities and cryptocurrencies</li>
+                    <li>Integrate latest technologies</li>
+                  </ul>
+
+                </div>
+              </li>
+              <br>
+              <li>
+                <h6>Junior Software Developer  - <span>Microsoft</span></h6>
+                <div class="education-details">
+                  <ul class="list-inline list-unstyled text-left">                    
+                    <li class="list-inline-item">                  
+                      <i class="fa fa-calendar" aria-hidden="true"></i> June 2012 - July 2014
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> London, UK
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  Working on numerous projects during my journey in Microsoft. Most recent one was optimizations of performance for Office 365 platform, fixing issues with OneDrive.Work included several responsibilities:
+                  <ul>
+                    <li>Write clean and maintainable code</li>
+                    <li>Optimise performance for key applications</li>
+                    <li>Integrate latest technologies</li>
+                  </ul>
+
+                </div>
+              </li>
+              <br>
+            </ul>
+          </div>
+          <div class="col-sm section">
+            <h5>Education</h5>
+            <ul>
+              <li>
+                <h6>Artificial Intelligence - <span>University of Cambridge</span></h6>
+                <div class="education-details">
+                  <ul class="list-inline list-unstyled text-center">
+                    <li class="list-inline-item">
+                      <i class="fa fa-university" aria-hidden="true"></i> Master Degree   
+                    </li>                    
+                    <li class="list-inline-item">                  
+                      <i class="fa fa-calendar" aria-hidden="true"></i> August 2014 - December 2016
+                    </li>                    
+                    <li class="list-inline-item">
+                      <i class="fa fa-graduation-cap" aria-hidden="true"></i> GPA - 4.00
+                    </li> 
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <h6>Computer Science - <span>University of Cambridge</span> </h6>
+                <div class="education-details">
+                  <ul class="list-inline list-unstyled text-center">                    
+                    <li class="list-inline-item">
+                      <i class="fa fa-university" aria-hidden="true"></i> Bachelor  
+                    </li>                      
+                    <li class="list-inline-item">                  
+                      <i class="fa fa-calendar" aria-hidden="true"></i> August 2010 - May 2014
+                    </li>                 
+                    <li class="list-inline-item">
+                      <i class="fa fa-graduation-cap" aria-hidden="true"></i> GPA - 3.67
+                    </li> 
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <h6>Software Engineering - <span>SoftUni</span> </h6>
+                <div class="education-details">
+                  <ul class="list-inline list-unstyled text-center">                    
+                    <li class="list-inline-item">
+                      <i class="fa fa-university" aria-hidden="true"></i> Bachelor   
+                    </li>                       
+                    <li class="list-inline-item">                  
+                      <i class="fa fa-calendar" aria-hidden="true"></i> August 2018 - September 2020
+                    </li>    
+                    <li class="list-inline-item">
+                      <i class="fa fa-graduation-cap" aria-hidden="true"></i> GPA - 4.00
+                    </li>                       
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <hr>
+            <h5>Skills</h5>
+            <h6 class="skills-group">Infrastructure</h6>
+              <ul class="list-inline list-unstyled text-center skills-list">
+                <li class="list-inline-item">Consul</li>
+                <li class="list-inline-item">Fabio</li>
+                <li class="list-inline-item">Docker</li>
+                <li class="list-inline-item">K8s</li>
+              </ul>
+            <h6 class="skills-group">Backend</h6>
+            <ul class="list-inline list-unstyled text-center skills-list">
+              <li class="list-inline-item">C#</li>
+              <li class="list-inline-item">SQL</li>
+              <li class="list-inline-item">MongoDB</li>
+              <li class="list-inline-item">Kafka</li>
+              <li class="list-inline-item">.NET Core</li>
+              <li class="list-inline-item">ASP.NET Core</li>
+              <li class="list-inline-item">Entity Framework Core</li>
+            </ul>
+            <h6 class="skills-group">Frontend</h6>
+            <ul class="list-inline list-unstyled text-center skills-list">
+              <li class="list-inline-item">JavaScript</li>
+              <li class="list-inline-item">jQuery</li>
+              <li class="list-inline-item">VueJS</li>
+              <li class="list-inline-item">Blazor</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gallery" class="hidden-section">
+      <h2> A picture can be downloaded by clicking on it <i class="fa fa-mouse-pointer" aria-hidden="true"></i></h2> 
+      <div class="container gallery-container"></div>
+    </div>
+
+    <div id="comments" class="hidden-section">
+      <h2> Below you can see all the comments that have been added. Please provide feedback. </h2>
+      <div>
+        <form id="comment-form" class="form-inline justify-content-center">
+          <div class="form-group">
+            <label for="image-url">ImageURL</label>
+            <input type="username" class="form-control" id="image-url" placeholder="Image Url(OPTIONAL)">
+          </div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="username" class="form-control" id="name" placeholder="Full name or username" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <input type="username" class="form-control" id="message" placeholder="Message" required>
+          </div>
+          <button type="submit" class="btn btn-secondary">Comment</button>
+        </form>
+        
+      </div>
+      <div class="comments-container">
+      </div>
+    </div>
+
+    <div id="about" class="hidden-section">
+      <div class="card text-center">
+        <div class="card-header">
+          <h5>Information about the website</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">This is a project work for <strong>'CITB517 Клиент-сървър технологии'</strong> course in <strong>NBU</strong>. The website has been created by <strong>Ilian Ganchosov</strong> F92235. </p>
+          <p> Following technologies & tools have been used: HTML5, CSS, Bootstrap, JS, jQuery.</p>
+          <br>
+          <p class="contacts">Contacts:</p>
+          <a href="https://www.linkedin.com/in/plotso/" class="btn btn-primary" target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/Plotso" class="btn btn-primary" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/i.ganchosov/" class="btn btn-primary" target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/ilian.ganchosov" class="btn btn-primary" target="_blank">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright" style="text-align: center;">
+        &copy;2020 Ilian Ganchosov
+    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
