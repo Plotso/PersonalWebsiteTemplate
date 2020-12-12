@@ -54,10 +54,12 @@ h2 {
     margin: 1%;
 }
 
-.education-details {
+.activity-details {
     position: relative;
     top: 10%;
     right: 5%;
+    font-size: 65%;
+    margin-left: 5%;
 }
 
 .current {
